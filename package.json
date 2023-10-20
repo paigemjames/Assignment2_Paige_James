@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/paigemjames/assignment2_paigejames.git"
+    "url": "git+ssh://git@github.com/paigemjames/Assignment2_Paige_James.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paigemjames/assignment2_paigejames/issues"
+    "url": "https://github.com/paigemjames/Assignment2_Paige_James/issues"
   },
-  "homepage": "https://github.com/paigemjames/assignment2_paigejames#readme"
+  "homepage": "https://github.com/paigemjames/Assignment2_Paige_James#readme"
 }
