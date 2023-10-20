@@ -1,6 +1,10 @@
 import config from './config/config.js'
-import app from './server/express.js'
+//import app from './server/express.js'
 import mongoose from 'mongoose'
+import express from 'express'
+
+const app = express();
+
 mongoose.Promise = global.Promise
 mongoose.connect(config.mongoUri, {
     useNewUrlParser: true,
@@ -9,7 +13,7 @@ mongoose.connect(config.mongoUri, {
 })
     .then(() => {
 
-        console.log("Connected to the database!");
+        console.log("Connected to the database");
 
     })
 mongoose.connection.on('error', () => {
