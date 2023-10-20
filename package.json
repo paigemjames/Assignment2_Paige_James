@@ -1,0 +1,19 @@
+{
+  "name": "assignment2_paige_james",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/paigemjames/assignment2_paigejames.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigemjames/assignment2_paigejames/issues"
+  },
+  "homepage": "https://github.com/paigemjames/assignment2_paigejames#readme"
+}
