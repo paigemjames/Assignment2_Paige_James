@@ -1,9 +1,9 @@
 import config from './config/config.js'
-//import app from './server/express.js'
 import mongoose from 'mongoose'
 import express from 'express'
+import app from './server/express.js'
 
-const app = express();
+
 
 mongoose.Promise = global.Promise
 mongoose.connect(config.mongoUri, {
